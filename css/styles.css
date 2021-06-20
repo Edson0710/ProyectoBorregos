@@ -1,0 +1,114 @@
+body{
+    background: url('../img/fondo.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+}
+
+#global{
+    width: 100%;
+    height: 95vh;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+#titulo{
+    text-align: center;
+    font-size: 24px;
+    letter-spacing: 1px;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    position: relative;
+    height: auto;
+}
+
+#titulo img{
+    height: 120px;
+    width: 60%;
+}
+
+#titulo span{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#centro{
+    display: flex;
+    margin-left: 20%;
+    margin-right: 20%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+#texto{
+    color: black;
+    font-weight: bold;
+    margin: 0px;
+    text-align: center;
+    position: relative;
+    bottom: 25px;
+    font-size: 18px;
+}
+
+#centro img{
+    max-height: 50%;
+    max-width: 50%;
+}
+
+#botones{
+    width: 100%;
+    text-align: center;
+    left: 0px;
+    right: 0px;
+    bottom: 10px;
+}
+
+#botones button{
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    background-color: #dbc59b;
+    border: 2px solid #c39652;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 8px;
+    width: 160px;
+    margin: 16px;
+    outline: none;
+    /* box-shadow: 0 5px #c39652; */
+}
+/* 
+#botones button:active{
+    background-color: #c39652;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+} */
+
+#botones button:hover{
+    background-color: #c39652;
+    cursor: pointer;
+}
+
+footer{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    background: rgba(51, 52, 51, 0.70);
+    margin: 0px auto;
+    width: 80%;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+    line-height: 47px;
+    display: block;
+    text-align: center;
+}
